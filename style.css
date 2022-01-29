@@ -16,14 +16,9 @@
     background-size: contain;
     background-position-x: center;
     background-position-y: center;
-<<<<<<< HEAD
-    overflow-x: hidden;
-    overflow-y: hidden;
-=======
     background-image: url(./imagenes/construir-web.png), linear-gradient(to bottom, #1A374D, #4b6cb7);
     overflow-y: hidden;
     overflow-x: hidden;
->>>>>>> develop
 }
 
 header{
@@ -98,9 +93,9 @@ footer li{
 
 /* Donde Estoy----------------------------------------------------------------------------------- */
 body{
-background-color: #406882;
-background: linear-gradient(to bottom, #1A374D, #4b6cb7);
-height: 100vh;
+    background-color: #406882;
+    background: linear-gradient(to bottom, #1A374D, #4b6cb7);
+    height: 100vh;
 }
 
 .subtituloDE{
@@ -110,6 +105,7 @@ height: 100vh;
     margin-top: 2%;
     font-family: 'Shadows Into Light', cursive;
     font-size: 45px;
+    color: white;
 }
 
 .mainDE{
