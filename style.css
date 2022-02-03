@@ -21,27 +21,32 @@
     overflow-x: hidden;
 }
 
-header{
+.navbar-light{
+    background-color: #1A374D;
+}
+.navbar ul li{
+    color: white;
+}
+
+
+/*header{
     background-color: #1A374D;
     height: 8%;
     top: 0;
     position: fixed;
     width: 100%;
     text-align: center;
-}
+}*/
+
+/*.granNavbar{
+    background-color: #1A374D;
+}*/
 
 main{
     min-height: 90vh;
 }
 
-.logo{
-    position: absolute;
-    left: 5%;
-    display: inline;
-    text-align: left;
-}
-
-.navegacion{
+/*.navegacion{
     display: inline;
     font-size: 18px;
 }
@@ -49,7 +54,7 @@ main{
 .navegacion li{
     display: inline;
 }
-
+*/
 .linkButtons{
     font-family: 'Orbitron', sans-serif;
     color: white;
@@ -163,4 +168,12 @@ main article p{
     color: white;
 }
 
+.tituloContacto{
+    display: flex;
+    justify-content: end;
+    margin-top: 2%;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
+    color: white;
+}
 /*------------------------------------------------------------------------------ */
