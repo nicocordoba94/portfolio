@@ -1,0 +1,28 @@
+/* ---------------------------------CONTACTO--------------------------------------- */
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  
+  .infoContacto {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 22px;
+    width: 700px;
+    height: 550px;
+    background-color: #1A374D;
+    color: white;
+  }
+  
+  .tituloContacto {
+    display: flex;
+    justify-content: end;
+    margin-top: 2%;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
+    color: $colorTitulos;
+}

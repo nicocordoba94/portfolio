@@ -1,0 +1,16 @@
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    
+    :root {
+    --animate-delay:0.5s;
+    }
+
+    body {
+        background-color: $colorPrincipal;
+        background: linear-gradient(to bottom, #1A374D, #4b6cb7);
+        height: 100vh;
+    }
+
+/* ---------------------------------ARRIBA GENERAL--------------------------------------- */

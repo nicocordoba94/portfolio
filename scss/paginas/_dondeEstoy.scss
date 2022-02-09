@@ -1,0 +1,42 @@
+/* ---------------------------------DONDE ESTOY--------------------------------------- */
+
+.subtituloDE {
+    display: flex;
+    justify-content: start;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
+    color: $colorTitulos;
+  }
+  
+  .mainDE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  
+  main article p {
+    justify-content: start;
+  }
+  
+  .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    width: 700px;
+    height: 550px;
+    background-color: #1A374D;
+  }
+  
+  .footerDE {
+    background-color: #6998AB;
+    height: 8%;
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+    text-align: center;
+    clear: both;
+  }
