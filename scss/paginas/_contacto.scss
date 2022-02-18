@@ -26,3 +26,8 @@
     font-size: 45px;
     color: $colorTitulos;
 }
+
+.btn{
+    background-color: map-get($coloresContacto , colorBoton );
+    color: map-get($coloresContacto, colorLetra );
+}

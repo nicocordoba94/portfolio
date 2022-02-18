@@ -13,4 +13,17 @@
         height: 100vh;
     }
 
+    $coloresContacto:(
+        colorBoton: rgb(50, 31, 102),
+        colorLetra: #fff);
+
+    @mixin subtitulos{
+        display: flex;
+        justify-content: start;
+        margin-left: 10%;
+        margin-top: 2%;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 45px;
+        color: $colorTitulos;
+    }
 /* ---------------------------------ARRIBA GENERAL--------------------------------------- */

@@ -1,13 +1,7 @@
 /* ---------------------------------DONDE ESTOY--------------------------------------- */
 
 .subtituloDE {
-    display: flex;
-    justify-content: start;
-    margin-left: 10%;
-    margin-top: 2%;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 45px;
-    color: $colorTitulos;
+    @include subtitulos;
   }
   
   .mainDE {
@@ -18,7 +12,8 @@
   }
   
   main article p {
-    justify-content: start;
+    @extend .formulario;
+    color: map-get($coloresContacto, colorLetra );
   }
   
   .map {

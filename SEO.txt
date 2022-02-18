@@ -1,0 +1,3 @@
+Se agrego a cada .html una descripcion de cada pagina y a su vez se agregaron las keywords (keywords generales para todas las paginas y algunas especificas de cada tematica)
+Se modificaron los Title para que sean mas descriptivos.
+El map que vincula todas las ventanas se encuentra en el footer.

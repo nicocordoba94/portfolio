@@ -173,7 +173,7 @@ h2 {
     border-radius: 50%; } }
 
 /* ---------------------------------CONTACTO--------------------------------------- */
-.formulario {
+.formulario, main article p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,6 +198,10 @@ h2 {
   font-size: 45px;
   color: white; }
 
+.btn {
+  background-color: #321f66;
+  color: #fff; }
+
 /* ---------------------------------DONDE ESTOY--------------------------------------- */
 .subtituloDE {
   display: flex;
@@ -215,7 +219,7 @@ h2 {
   flex-flow: column; }
 
 main article p {
-  justify-content: start; }
+  color: #fff; }
 
 .map {
   display: flex;
@@ -236,4 +240,21 @@ main article p {
   clear: both; }
 
 /* ---------------------------------QUIEN SOY--------------------------------------- */
+.subtituloQS {
+  display: flex;
+  justify-content: start;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 45px;
+  color: white; }
+
 /* ---------------------------------TRABAJOS--------------------------------------- */
+.subtituloMT {
+  display: flex;
+  justify-content: start;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 45px;
+  color: white; }
