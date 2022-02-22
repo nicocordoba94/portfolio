@@ -1,3 +1,4 @@
+/*mixins generales*/
 * {
   margin: 0;
   padding: 0; }
@@ -8,7 +9,14 @@
 body {
   background-color: #406882;
   background: linear-gradient(to bottom, #1A374D, #4b6cb7);
-  height: 100vh; }
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.idioma {
+  width: 32px;
+  height: 32px;
+  margin-left: 1rem; }
 
 /* ---------------------------------ARRIBA GENERAL--------------------------------------- */
 .bodyHome {
@@ -24,15 +32,6 @@ body {
 main {
   min-height: 90vh; }
 
-/*.navegacion{
-      display: inline;
-      font-size: 18px;
-  }
-  
-  .navegacion li{
-      display: inline;
-  }
-  */
 .linkButtons {
   font-family: 'Orbitron', sans-serif;
   color: white;
@@ -249,6 +248,48 @@ main article p {
   font-size: 45px;
   color: white; }
 
+.fotoCv {
+  border-radius: 40%;
+  height: 300px; }
+
+.acordeon {
+  margin-bottom: 2%; }
+
+.descarga {
+  display: flex; }
+
+.btn2 {
+  background-color: #321f66;
+  color: #fff;
+  justify-content: end;
+  margin-bottom: 2%; }
+
+footer {
+  z-index: 10000;
+  position: relative;
+  bottom: 0; }
+  footer .medio {
+    background-color: #141441; }
+
+.piecito {
+  background-color: black; }
+
+.intro2 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #142342;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: white;
+  border: 1px solid #1a1a64;
+  border-radius: 15px; }
+
+.btn2 {
+  justify-content: end; }
+
+@media only screen and (max-width: 450px) {
+  .intro2 {
+    margin-bottom: 3%; } }
+
 /* ---------------------------------TRABAJOS--------------------------------------- */
 .subtituloMT {
   display: flex;
@@ -258,3 +299,10 @@ main article p {
   font-family: 'Shadows Into Light', cursive;
   font-size: 45px;
   color: white; }
+
+#carouselExampleCaptions2 {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%; }
+  #carouselExampleCaptions2 .carousel-item {
+    height: 600px; }

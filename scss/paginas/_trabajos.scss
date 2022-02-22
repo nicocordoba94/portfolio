@@ -2,3 +2,14 @@
 .subtituloMT{
     @include subtitulos;
 }
+
+#carouselExampleCaptions2{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+
+    .carousel-item{
+        height: 600px;
+    }
+}
+

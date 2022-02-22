@@ -23,6 +23,7 @@
     <title>Quien Soy</title>
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
@@ -45,7 +46,16 @@
                         <a class="nav-link text-white linkButtons" href="./dondeEstoy.html">Donde estoy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white linkButtons" href="./contacto.html">Contacto</a>
+                        <a class="nav-link text-white linkButtons contac" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="lang nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white linkButtons" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../imagenes/ingesp.png" class="idioma" alt="idioma">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Español</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
                     </li>
                 </ul>
                 </div>
@@ -53,23 +63,69 @@
         </nav>
     </header>
     <section>
-        <h2 class="subtituloQS animate__animated animate__fadeInLeftBig animate__slow">Quien soy</h2>
-        <a><img src="../imagenes/nico.jpg" alt="foto momentanea"></a>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod fugiat laborum sit. Nisi, quidem, numquam eveniet architecto blanditiis, quae vel deserunt possimus necessitatibus nemo sint odit ipsam labore voluptatibus? Itaque.
-            Omnis architecto hic facere facilis quisquam eligendi id amet similique, dolore earum deserunt provident dolorum minus itaque et temporibus error. Possimus architecto modi exercitationem facilis asperiores nihil aut laboriosam placeat.
-            Ullam officiis atque fuga facere iste qui voluptatibus culpa minima reiciendis, nobis nam dolore quas ad sed! Tenetur temporibus dolor aut cumque, doloremque eligendi nobis. Consequuntur animi ipsam labore distinctio.
-            Quas corporis suscipit nostrum totam. Laboriosam delectus quam voluptatum ad amet dolorem asperiores rerum temporibus veniam optio debitis exercitationem, alias ea mollitia eos sequi quis? Ipsa ut adipisci tempora assumenda!
-            Corrupti blanditiis perspiciatis ipsa exercitationem laudantium omnis eum ullam fugiat similique impedit veritatis quos possimus repellendus nihil aliquid, magni voluptate? Fuga laborum necessitatibus vel! Dolores labore doloremque neque asperiores quas.
-            Iste necessitatibus ipsa cumque mollitia blanditiis maiores earum repellendus tenetur quis, ab, consequuntur consequatur! Harum labore optio eum repellat magnam eos a pariatur saepe eveniet blanditiis, deserunt minima temporibus. Ducimus!
-            Cumque est ea tenetur velit maxime rem quae officia vel commodi, totam aliquid autem, cupiditate quia inventore nisi nostrum quidem voluptatem consectetur maiores adipisci? Tenetur vel eum soluta assumenda similique.
-            Quo esse quae ad tenetur consequuntur est culpa corrupti eveniet magnam distinctio ipsum laborum aliquam sint, beatae porro eius veniam, placeat ratione minima enim? Dignissimos culpa dolorem nostrum quidem in.
-            Obcaecati tempora nostrum quisquam iste. Repellendus voluptates officiis ea perferendis aliquam fugiat molestiae iusto doloremque tempora voluptatibus eveniet officia placeat enim ipsum numquam expedita, eligendi mollitia debitis, rem facilis ratione.
-            Quae deserunt vel odit eaque amet, exercitationem numquam dolores dignissimos, fugit autem repellat nulla ea eius illo velit ullam culpa ut non. Soluta, reprehenderit voluptatibus? Animi officia blanditiis illo aliquam!
-        </p>
+        <h2 class="subtituloQS animate__animated animate__fadeInLeftBig animate__slow">Mi Curriculum</h2>
+        <a><img class="fotoCv mx-auto d-block" src="../imagenes/nico.jpg" alt="foto momentanea"></a>
     </section>
+    <main class="row justify-content-center mt-5">
+        <section class="conteiner col-12 col-md-5 col-lg-4">
+            <div class="intro2">
+                <p class="intro">Hola, soy Nicolas Cordoba, un desarrollador Argentino que vive en la ciudad de Mar del Plata. Amo la tecnologia y todo lo que se puede lograr con ella, y creo que esa es una de la razones por la que estoy aca. Una de las frases que mas me gustan es: "Si lo puedes imaginar, lo puedes programar". El desafio que representa que se te acerquen con una idea, y que puedas realizar lo que otra persona imagina, es algo que me tiene pensando todo el tiempo. El encontrar la respuesta al dilema que se tiene enfrente, es una de las sensaciones mas satifactorias que se pueda tener, y por eso amo lo que hago. Siempre pensando soluciones, siempre pensando en desafios.</p>
+            </div>
+        </section>    
+        <section class="conteiner col-12 col-md-5 col-lg-6 acordeon">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button text-black" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            Formación Académica
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <strong>Universidad: </strong> Actualmente cursando la Tecnicatura Superior en Programacion en la Universidad Tecnologica Nacional.
+                            <br>
+                            <strong>Cursos: </strong> Java y Base de Datos MySQL plan 111mil - UCIP . Terminado
+                            <br>
+                            <strong>Cursos: </strong> Desarrollo web Front End en CoderHouse. Terminado
+                            <br>
+                            <strong>Cursos: </strong> Javascript en CoderHouse. En curso
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Experiencia Laboral
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                        <strong>2020-Actualidad</strong> Encargado de Ventas de HP para Mercado Libre en Grupo Nucleo.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Idiomas
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                        <strong>Ingles</strong> Avanzado, oral y escrito.
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>        
+
+            <a class="btn2 btn-lg" href="https://drive.google.com/uc?id=1mKfV7xBhAGwwy1PHugk6DPXPLmnsOd1k&export=download" download="CVNICOLAS.html"data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">Descargar CV</a>
+
+    </main>
     <!------------------------- Footer --------------------------------->
-    <footer class="text-center text-lg-start text-white">
+    <footer class="piecito text-center text-lg-start text-white">
+        <!-- Redes -->
         <section class="socialMedia d-flex justify-content-between p-4">
             <div class="me-5">
                 <span>Buscame en redes:</span>
@@ -80,9 +136,10 @@
                 <a class="text-white me-4" href="https://www.linkedin.com" target="_blank"><img src="../imagenes/ln.png" alt="logo Linkedin" width="36"></a>
             </div>
         </section>
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <div class="row mt-3">
+        <!-- Medio -->
+        <section>
+            <div class="container-fluid text-center text-md-start medio">
+                <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold">Nicolas Cordoba</h6>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto"/>
@@ -119,8 +176,9 @@
                 </div>
             </div>
         </section>
-        <div class="copyright text-center p-3">© 2021 Copyright:<a class="text-white" href="../index.html"> NCordoba</a>
-        </div>
+        <section class="copyright text-center p-3">© 2021 Copyright:<a class="text-white" href="../index.html"> NCordoba</a>
+        </section>
+        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>

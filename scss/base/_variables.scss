@@ -1,2 +1,13 @@
 $colorPrincipal: #406882;
 $colorTitulos: white;
+$colorMedio: rgb(20, 20, 65) ; 
+
+
+
+
+/*mixins generales*/
+
+@mixin botones{
+    background-color: map-get($coloresContacto , colorBoton );
+    color: map-get($coloresContacto, colorLetra );
+}

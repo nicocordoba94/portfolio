@@ -2,3 +2,56 @@
 .subtituloQS{
     @include subtitulos;
 }
+.fotoCv{
+    border-radius: 40%;
+    height: 300px;
+    
+}
+
+.acordeon{
+    margin-bottom: 2%
+}
+.descarga{
+    display: flex
+}
+.btn2{
+    @include botones;
+
+    justify-content: end;
+    margin-bottom: 2%;
+}
+footer{
+    z-index: 10000;
+    position: relative;
+    bottom: 0;
+
+    .medio{
+        background-color: $colorMedio;
+    }
+}
+
+.piecito{
+    background-color: black;
+}
+
+.intro2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(20, 35, 66);
+    margin-left: 1%;
+    margin-right: 1%;
+    color: white;
+    border: 1px solid rgb(26, 26, 100);
+    border-radius: 15px;
+    
+}
+
+.btn2{
+    justify-content: end;
+}
+
+@media only screen and (max-width: 450px) {
+    .intro2{
+        margin-bottom: 3%;
+    }
+
+}

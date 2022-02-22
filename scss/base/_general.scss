@@ -1,6 +1,7 @@
     * {
     margin: 0;
     padding: 0;
+    
     }
     
     :root {
@@ -11,7 +12,10 @@
         background-color: $colorPrincipal;
         background: linear-gradient(to bottom, #1A374D, #4b6cb7);
         height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
+
 
     $coloresContacto:(
         colorBoton: rgb(50, 31, 102),
@@ -26,4 +30,18 @@
         font-size: 45px;
         color: $colorTitulos;
     }
+
+
+
+    @media only screen and (min-width: 960px) {
+        
+
+    }
+    
+    .idioma{
+        width: 32px;
+        height: 32px;
+        margin-left: 1rem;
+    }
+
 /* ---------------------------------ARRIBA GENERAL--------------------------------------- */
