@@ -35,3 +35,24 @@
     text-align: center;
     clear: both;
   }
+
+  @media only screen and (max-width: 450px) {
+    
+    .mainDE{
+      display: flex;
+      position: relative;
+      div article{
+        top: 0;
+      }
+    }
+    
+    .map{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4%;
+      width: 400px;
+      height: 250px;
+      background-color: transparent;
+    }    
+  }
