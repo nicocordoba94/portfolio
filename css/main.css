@@ -293,10 +293,6 @@ h2 {
   border: 1px solid #1a1a64;
   border-radius: 15px; }
 
-@media only screen and (max-width: 450px) {
-  .intro2 {
-    margin-bottom: 3%; } }
-
 footer {
   z-index: 10000;
   position: relative;
@@ -310,6 +306,10 @@ footer {
   width: 100%;
   text-align: center;
   clear: both; }
+
+@media only screen and (max-width: 450px) {
+  .intro2 {
+    margin-bottom: 3%; } }
 
 /* ---------------------------------TRABAJOS--------------------------------------- */
 .subtituloMT {
@@ -335,3 +335,7 @@ footer {
 
 .infoGit section {
   justify-content: center; }
+
+@media only screen and (max-width: 450px) {
+  main img {
+    margin-top: 80%; } }

@@ -23,3 +23,10 @@
 .infoGit section{
     justify-content: center;
 }
+
+@media only screen and (max-width: 450px) {
+    
+    main img{
+        margin-top: 80%;
+    }
+}
