@@ -11,7 +11,8 @@ body {
   background: linear-gradient(to bottom, #1A374D, #4b6cb7);
   height: 100vh;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  overflow-x: hidden; }
 
 .idioma {
   width: 32px;
@@ -172,7 +173,7 @@ h2 {
     border-radius: 50%; } }
 
 /* ---------------------------------CONTACTO--------------------------------------- */
-.formulario, main article p {
+.formulario {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,9 +217,6 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-flow: column; }
-
-main article p {
-  color: #fff; }
 
 .map {
   display: flex;
@@ -267,27 +265,23 @@ main article p {
   border-radius: 40%;
   height: 300px; }
 
-.acordeon {
+.acordeon1 {
   margin-bottom: 2%; }
 
 .descarga {
   display: flex; }
 
+.botonDescarga {
+  text-align: end;
+  margin-right: 17%;
+  margin-bottom: 3%; }
+
 .btn2 {
   background-color: #321f66;
   color: #fff;
   justify-content: end;
-  margin-bottom: 2%; }
-
-footer {
-  z-index: 10000;
-  position: relative;
-  bottom: 0; }
-  footer .medio {
-    background-color: #141441; }
-
-.piecito {
-  background-color: black; }
+  margin-bottom: 2%;
+  text-decoration: none; }
 
 .intro2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -298,12 +292,23 @@ footer {
   border: 1px solid #1a1a64;
   border-radius: 15px; }
 
-.btn2 {
-  justify-content: end; }
-
 @media only screen and (max-width: 450px) {
   .intro2 {
     margin-bottom: 3%; } }
+
+footer {
+  z-index: 10000;
+  position: relative;
+  bottom: 0; }
+
+.footerDE {
+  background-color: #6998AB;
+  height: 8%;
+  position: absolute;
+  bottom: 0vh;
+  width: 100%;
+  text-align: center;
+  clear: both; }
 
 /* ---------------------------------TRABAJOS--------------------------------------- */
 .subtituloMT {
@@ -321,3 +326,11 @@ footer {
   margin-top: 5%; }
   #carouselExampleCaptions2 .carousel-item {
     height: 600px; }
+
+.infoGit {
+  margin-top: 2%;
+  position: relative;
+  display: flex; }
+
+.infoGit section {
+  justify-content: center; }

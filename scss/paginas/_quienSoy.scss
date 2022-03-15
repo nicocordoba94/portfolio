@@ -8,30 +8,25 @@
     
 }
 
-.acordeon{
-    margin-bottom: 2%
-}
-.descarga{
-    display: flex
-}
-.btn2{
-    @include botones;
-
-    justify-content: end;
+.acordeon1{
     margin-bottom: 2%;
 }
-footer{
-    z-index: 10000;
-    position: relative;
-    bottom: 0;
 
-    .medio{
-        background-color: $colorMedio;
-    }
+.descarga{
+    display: flex;
 }
 
-.piecito{
-    background-color: black;
+.botonDescarga{
+    text-align: end;
+    margin-right: 17%;
+    margin-bottom: 3%;
+}
+
+.btn2{
+    @include botones;
+    justify-content: end;
+    margin-bottom: 2%;
+    text-decoration: none;
 }
 
 .intro2{
@@ -45,13 +40,24 @@ footer{
     
 }
 
-.btn2{
-    justify-content: end;
-}
-
 @media only screen and (max-width: 450px) {
     .intro2{
         margin-bottom: 3%;
     }
+}
 
+footer{
+    z-index: 10000;
+    position: relative;
+    bottom: 0;
+}
+
+.footerDE {
+    background-color: #6998AB;
+    height: 8%;
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+    text-align: center;
+    clear: both;
 }

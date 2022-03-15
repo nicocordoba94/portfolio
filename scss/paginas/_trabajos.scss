@@ -3,6 +3,7 @@
     @include subtitulos;
 }
 
+
 #carouselExampleCaptions2{
     width: 60%;
     margin: 0 auto;
@@ -13,3 +14,12 @@
     }
 }
 
+.infoGit{
+    margin-top: 2%;
+    position: relative;
+    display: flex;
+}
+
+.infoGit section{
+    justify-content: center;
+}
